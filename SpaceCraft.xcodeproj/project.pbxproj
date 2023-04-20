@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		554EBDD929F1306400BC6BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDD829F1306400BC6BFE /* AppDelegate.swift */; };
 		554EBDDB29F1306400BC6BFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDDA29F1306400BC6BFE /* SceneDelegate.swift */; };
-		554EBDDD29F1306400BC6BFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDDC29F1306400BC6BFE /* ViewController.swift */; };
-		554EBDE029F1306400BC6BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554EBDDE29F1306400BC6BFE /* Main.storyboard */; };
+		554EBDDD29F1306400BC6BFE /* SpaceCraftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDDC29F1306400BC6BFE /* SpaceCraftViewController.swift */; };
 		554EBDE229F1306500BC6BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554EBDE129F1306500BC6BFE /* Assets.xcassets */; };
 		554EBDE529F1306500BC6BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554EBDE329F1306500BC6BFE /* LaunchScreen.storyboard */; };
+		554EBDF129F135EA00BC6BFE /* SpaceCraftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDF029F135EA00BC6BFE /* SpaceCraftModel.swift */; };
+		554EBDF329F1385900BC6BFE /* ParseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDF229F1385900BC6BFE /* ParseJSON.swift */; };
+		554EBDFC29F1443000BC6BFE /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDFB29F1443000BC6BFE /* MainPageViewController.swift */; };
+		554EBDFD29F14A1D00BC6BFE /* SpaceCraftJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 554EBDF829F138C000BC6BFE /* SpaceCraftJSON.json */; };
+		554EBE0229F15DFF00BC6BFE /* InformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBE0129F15DFF00BC6BFE /* InformationCell.swift */; };
+		554EBE0729F16A5400BC6BFE /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBE0629F16A5400BC6BFE /* Bundle.swift */; };
+		554EBE0A29F16AE200BC6BFE /* Unbounded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554EBE0929F16AE200BC6BFE /* Unbounded-Regular.ttf */; };
+		554EBE0C29F16AFA00BC6BFE /* Unbounded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554EBE0B29F16AFA00BC6BFE /* Unbounded-Medium.ttf */; };
+		554EBE0E29F16B2800BC6BFE /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBE0D29F16B2800BC6BFE /* Fonts.swift */; };
+		554EBE1029F16DE500BC6BFE /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBE0F29F16DE500BC6BFE /* ImageCell.swift */; };
+		554EBE1229F1722600BC6BFE /* Unbounded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554EBE1129F1722600BC6BFE /* Unbounded-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		554EBDD529F1306400BC6BFE /* SpaceCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		554EBDD829F1306400BC6BFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		554EBDDA29F1306400BC6BFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		554EBDDC29F1306400BC6BFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		554EBDDF29F1306400BC6BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		554EBDDC29F1306400BC6BFE /* SpaceCraftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceCraftViewController.swift; sourceTree = "<group>"; };
 		554EBDE129F1306500BC6BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		554EBDE429F1306500BC6BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		554EBDE629F1306500BC6BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554EBDF029F135EA00BC6BFE /* SpaceCraftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceCraftModel.swift; sourceTree = "<group>"; };
+		554EBDF229F1385900BC6BFE /* ParseJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJSON.swift; sourceTree = "<group>"; };
+		554EBDF829F138C000BC6BFE /* SpaceCraftJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SpaceCraftJSON.json; sourceTree = "<group>"; };
+		554EBDFB29F1443000BC6BFE /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		554EBE0129F15DFF00BC6BFE /* InformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCell.swift; sourceTree = "<group>"; };
+		554EBE0629F16A5400BC6BFE /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		554EBE0929F16AE200BC6BFE /* Unbounded-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Unbounded-Regular.ttf"; path = "../../../../../Library/Fonts/Unbounded-Regular.ttf"; sourceTree = "<group>"; };
+		554EBE0B29F16AFA00BC6BFE /* Unbounded-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Unbounded-Medium.ttf"; path = "../../../../../Library/Fonts/Unbounded-Medium.ttf"; sourceTree = "<group>"; };
+		554EBE0D29F16B2800BC6BFE /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		554EBE0F29F16DE500BC6BFE /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		554EBE1129F1722600BC6BFE /* Unbounded-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Unbounded-Light.ttf"; path = "../../../../../Library/Fonts/Unbounded-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,97 @@
 		554EBDD729F1306400BC6BFE /* SpaceCraft */ = {
 			isa = PBXGroup;
 			children = (
-				554EBDD829F1306400BC6BFE /* AppDelegate.swift */,
-				554EBDDA29F1306400BC6BFE /* SceneDelegate.swift */,
-				554EBDDC29F1306400BC6BFE /* ViewController.swift */,
-				554EBDDE29F1306400BC6BFE /* Main.storyboard */,
+				554EBDED29F130E600BC6BFE /* Application */,
+				554EBDEF29F135D200BC6BFE /* Model */,
+				554EBE0029F15DE700BC6BFE /* View */,
+				554EBDEE29F135CB00BC6BFE /* Controller */,
+				554EBDF429F1389300BC6BFE /* Resources */,
+				554EBDEC29F130D700BC6BFE /* SupportingFiles */,
+			);
+			path = SpaceCraft;
+			sourceTree = "<group>";
+		};
+		554EBDEC29F130D700BC6BFE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				554EBDE129F1306500BC6BFE /* Assets.xcassets */,
 				554EBDE329F1306500BC6BFE /* LaunchScreen.storyboard */,
 				554EBDE629F1306500BC6BFE /* Info.plist */,
 			);
-			path = SpaceCraft;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		554EBDED29F130E600BC6BFE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				554EBDD829F1306400BC6BFE /* AppDelegate.swift */,
+				554EBDDA29F1306400BC6BFE /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		554EBDEE29F135CB00BC6BFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				554EBDDC29F1306400BC6BFE /* SpaceCraftViewController.swift */,
+				554EBDFB29F1443000BC6BFE /* MainPageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		554EBDEF29F135D200BC6BFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				554EBDF029F135EA00BC6BFE /* SpaceCraftModel.swift */,
+				554EBDF229F1385900BC6BFE /* ParseJSON.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		554EBDF429F1389300BC6BFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				554EBDF729F138BC00BC6BFE /* JSON */,
+				554EBE0829F16AC600BC6BFE /* Fonts */,
+				554EBE0529F16A4700BC6BFE /* Extensions */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		554EBDF729F138BC00BC6BFE /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				554EBDF829F138C000BC6BFE /* SpaceCraftJSON.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		554EBE0029F15DE700BC6BFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				554EBE0129F15DFF00BC6BFE /* InformationCell.swift */,
+				554EBE0F29F16DE500BC6BFE /* ImageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		554EBE0529F16A4700BC6BFE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				554EBE0629F16A5400BC6BFE /* Bundle.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		554EBE0829F16AC600BC6BFE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				554EBE1129F1722600BC6BFE /* Unbounded-Light.ttf */,
+				554EBE0B29F16AFA00BC6BFE /* Unbounded-Medium.ttf */,
+				554EBE0929F16AE200BC6BFE /* Unbounded-Regular.ttf */,
+				554EBE0D29F16B2800BC6BFE /* Fonts.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +227,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554EBE1229F1722600BC6BFE /* Unbounded-Light.ttf in Resources */,
+				554EBE0A29F16AE200BC6BFE /* Unbounded-Regular.ttf in Resources */,
+				554EBDFD29F14A1D00BC6BFE /* SpaceCraftJSON.json in Resources */,
+				554EBE0C29F16AFA00BC6BFE /* Unbounded-Medium.ttf in Resources */,
 				554EBDE529F1306500BC6BFE /* LaunchScreen.storyboard in Resources */,
 				554EBDE229F1306500BC6BFE /* Assets.xcassets in Resources */,
-				554EBDE029F1306400BC6BFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +243,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554EBDDD29F1306400BC6BFE /* ViewController.swift in Sources */,
+				554EBDDD29F1306400BC6BFE /* SpaceCraftViewController.swift in Sources */,
+				554EBDFC29F1443000BC6BFE /* MainPageViewController.swift in Sources */,
+				554EBE0729F16A5400BC6BFE /* Bundle.swift in Sources */,
+				554EBDF129F135EA00BC6BFE /* SpaceCraftModel.swift in Sources */,
 				554EBDD929F1306400BC6BFE /* AppDelegate.swift in Sources */,
 				554EBDDB29F1306400BC6BFE /* SceneDelegate.swift in Sources */,
+				554EBE0229F15DFF00BC6BFE /* InformationCell.swift in Sources */,
+				554EBE0E29F16B2800BC6BFE /* Fonts.swift in Sources */,
+				554EBDF329F1385900BC6BFE /* ParseJSON.swift in Sources */,
+				554EBE1029F16DE500BC6BFE /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		554EBDDE29F1306400BC6BFE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				554EBDDF29F1306400BC6BFE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		554EBDE329F1306500BC6BFE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,17 +388,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JRA8SJKSWZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpaceCraft/Info.plist;
+				INFOPLIST_FILE = SpaceCraft/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +406,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aiv.SpaceCraft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,17 +419,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JRA8SJKSWZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpaceCraft/Info.plist;
+				INFOPLIST_FILE = SpaceCraft/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +437,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aiv.SpaceCraft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
