@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552638CF29F4033000532AFD /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552638CE29F4033000532AFD /* InfoCell.swift */; };
+		552638D129F403F900532AFD /* DestinationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552638D029F403F900532AFD /* DestinationCell.swift */; };
+		552638D329F404F700532AFD /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552638D229F404F700532AFD /* TitleCell.swift */; };
+		552638D529F405F300532AFD /* LaunchButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552638D429F405F300532AFD /* LaunchButtonCell.swift */; };
 		554EBDD929F1306400BC6BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDD829F1306400BC6BFE /* AppDelegate.swift */; };
 		554EBDDB29F1306400BC6BFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDDA29F1306400BC6BFE /* SceneDelegate.swift */; };
 		554EBDDD29F1306400BC6BFE /* SpaceCraftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDDC29F1306400BC6BFE /* SpaceCraftViewController.swift */; };
 		554EBDE229F1306500BC6BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554EBDE129F1306500BC6BFE /* Assets.xcassets */; };
 		554EBDE529F1306500BC6BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554EBDE329F1306500BC6BFE /* LaunchScreen.storyboard */; };
 		554EBDF129F135EA00BC6BFE /* SpaceCraftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDF029F135EA00BC6BFE /* SpaceCraftModel.swift */; };
-		554EBDF329F1385900BC6BFE /* ParseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDF229F1385900BC6BFE /* ParseJSON.swift */; };
 		554EBDFC29F1443000BC6BFE /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBDFB29F1443000BC6BFE /* MainPageViewController.swift */; };
 		554EBDFD29F14A1D00BC6BFE /* SpaceCraftJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 554EBDF829F138C000BC6BFE /* SpaceCraftJSON.json */; };
-		554EBE0229F15DFF00BC6BFE /* InformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBE0129F15DFF00BC6BFE /* InformationCell.swift */; };
 		554EBE0729F16A5400BC6BFE /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBE0629F16A5400BC6BFE /* Bundle.swift */; };
 		554EBE0A29F16AE200BC6BFE /* Unbounded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554EBE0929F16AE200BC6BFE /* Unbounded-Regular.ttf */; };
 		554EBE0C29F16AFA00BC6BFE /* Unbounded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554EBE0B29F16AFA00BC6BFE /* Unbounded-Medium.ttf */; };
@@ -26,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		552638CE29F4033000532AFD /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		552638D029F403F900532AFD /* DestinationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCell.swift; sourceTree = "<group>"; };
+		552638D229F404F700532AFD /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		552638D429F405F300532AFD /* LaunchButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchButtonCell.swift; sourceTree = "<group>"; };
 		554EBDD529F1306400BC6BFE /* SpaceCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		554EBDD829F1306400BC6BFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		554EBDDA29F1306400BC6BFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,10 +40,8 @@
 		554EBDE429F1306500BC6BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		554EBDE629F1306500BC6BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		554EBDF029F135EA00BC6BFE /* SpaceCraftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceCraftModel.swift; sourceTree = "<group>"; };
-		554EBDF229F1385900BC6BFE /* ParseJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJSON.swift; sourceTree = "<group>"; };
 		554EBDF829F138C000BC6BFE /* SpaceCraftJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SpaceCraftJSON.json; sourceTree = "<group>"; };
 		554EBDFB29F1443000BC6BFE /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
-		554EBE0129F15DFF00BC6BFE /* InformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCell.swift; sourceTree = "<group>"; };
 		554EBE0629F16A5400BC6BFE /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		554EBE0929F16AE200BC6BFE /* Unbounded-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Unbounded-Regular.ttf"; path = "../../../../../Library/Fonts/Unbounded-Regular.ttf"; sourceTree = "<group>"; };
 		554EBE0B29F16AFA00BC6BFE /* Unbounded-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Unbounded-Medium.ttf"; path = "../../../../../Library/Fonts/Unbounded-Medium.ttf"; sourceTree = "<group>"; };
@@ -118,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				554EBDF029F135EA00BC6BFE /* SpaceCraftModel.swift */,
-				554EBDF229F1385900BC6BFE /* ParseJSON.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -144,8 +147,11 @@
 		554EBE0029F15DE700BC6BFE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				554EBE0129F15DFF00BC6BFE /* InformationCell.swift */,
 				554EBE0F29F16DE500BC6BFE /* ImageCell.swift */,
+				552638D229F404F700532AFD /* TitleCell.swift */,
+				552638CE29F4033000532AFD /* InfoCell.swift */,
+				552638D029F403F900532AFD /* DestinationCell.swift */,
+				552638D429F405F300532AFD /* LaunchButtonCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,14 +250,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				554EBDDD29F1306400BC6BFE /* SpaceCraftViewController.swift in Sources */,
+				552638D329F404F700532AFD /* TitleCell.swift in Sources */,
 				554EBDFC29F1443000BC6BFE /* MainPageViewController.swift in Sources */,
 				554EBE0729F16A5400BC6BFE /* Bundle.swift in Sources */,
+				552638D529F405F300532AFD /* LaunchButtonCell.swift in Sources */,
 				554EBDF129F135EA00BC6BFE /* SpaceCraftModel.swift in Sources */,
 				554EBDD929F1306400BC6BFE /* AppDelegate.swift in Sources */,
+				552638CF29F4033000532AFD /* InfoCell.swift in Sources */,
 				554EBDDB29F1306400BC6BFE /* SceneDelegate.swift in Sources */,
-				554EBE0229F15DFF00BC6BFE /* InformationCell.swift in Sources */,
 				554EBE0E29F16B2800BC6BFE /* Fonts.swift in Sources */,
-				554EBDF329F1385900BC6BFE /* ParseJSON.swift in Sources */,
+				552638D129F403F900532AFD /* DestinationCell.swift in Sources */,
 				554EBE1029F16DE500BC6BFE /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

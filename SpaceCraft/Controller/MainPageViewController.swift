@@ -25,7 +25,6 @@ class MainPageViewController: UIPageViewController {
         super.viewDidLoad()
         
         for i in 0...data.count - 1 {
-            
             let vc = SpaceCraftViewController(spacecraft: data[i])
             spaceCraftViewController.append(vc)
         }
@@ -33,7 +32,6 @@ class MainPageViewController: UIPageViewController {
         setViewControllers([spaceCraftViewController[indexPage]], direction: .reverse, animated: false)
         dataSource = self
     }
-    
 }
 
 extension MainPageViewController: UIPageViewControllerDataSource {
@@ -48,7 +46,8 @@ extension MainPageViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController,
                             viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
-        guard let index = spaceCraftViewController.firstIndex(of: viewController as! SpaceCraftViewController) else { return nil }
+        guard let index = spaceCraftViewController.firstIndex(of: viewController as! SpaceCraftViewController) else { return nil
+        }
         
         if index == 0 {
             return spaceCraftViewController.last
@@ -60,7 +59,9 @@ extension MainPageViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController,
                             viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
-        guard let index = spaceCraftViewController.firstIndex(of: viewController as! SpaceCraftViewController) else { return nil }
+        guard let index = spaceCraftViewController.firstIndex(of: viewController as! SpaceCraftViewController) else { return nil
+        }
+        
         if viewController == spaceCraftViewController.last {
             return spaceCraftViewController.first
         } else {

@@ -14,7 +14,6 @@ struct SpaceCraftModel: Codable {
     let noLaunches: Int?
     let length, diameter, startMass: String
     let fuelType: String
-    let maxDistance: String
     let status: String
     let description, image: String
 
@@ -25,7 +24,6 @@ struct SpaceCraftModel: Codable {
         case length, diameter
         case startMass = "start_mass"
         case fuelType = "fuel_type"
-        case maxDistance = "max_distance"
         case status, description, image
     }
 }

@@ -12,7 +12,6 @@ class SpaceCraftViewController: UITableViewController {
     var spacecraft: SpaceCraftModel
     
     init(spacecraft: SpaceCraftModel) {
-        
         self.spacecraft = spacecraft
         super.init(style: .grouped)
     }
@@ -25,9 +24,12 @@ class SpaceCraftViewController: UITableViewController {
         super.viewDidLoad()
         view.backgroundColor = .init(named: "BackgroundColor")
         tableView.separatorColor = .clear
+        tableView.allowsSelection = false
         tableView.register(ImageCell.self, forCellReuseIdentifier: "imageCell")
-        tableView.register(InformationCell.self, forCellReuseIdentifier: "infoCell")
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(TitleCell.self, forCellReuseIdentifier: "titleCell")
+        tableView.register(InfoCell.self, forCellReuseIdentifier: "infoCell")
+        tableView.register(DestinationCell.self, forCellReuseIdentifier: "desCell")
+        tableView.register(LaunchButtonCell.self, forCellReuseIdentifier: "launchCell")
     }
 }
 
@@ -36,50 +38,47 @@ extension SpaceCraftViewController {
         switch indexPath.section {
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: "imageCell")! as! ImageCell
+            cell.setImage(name: spacecraft.image)
             return cell
         case 1:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as! UITableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "titleCell") as! TitleCell
             cell.textLabel?.text = spacecraft.name
-            cell.textLabel?.font = .init(name: Fonts.medium, size: 32)
-            cell.backgroundColor = .clear
             return cell
         case 2:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "infoCell")! as! InformationCell
-            let data = fetchInformation()
+            let cell = tableView.dequeueReusableCell(withIdentifier: "infoCell")! as! InfoCell
+            
             let key = ["Производитель:",
                        "Количество ступеней:",
-                       "Количество запусков:",
                        "Длина:",
                        "Диаметр:",
                        "Масса:",
                        "Топливо:",
-                       "Максимальная дистанция:"]
+                       "Статус",
+                       "Количество запусков:"
+                       ]
             let value = [
                 "\(spacecraft.manufacturer)",
                 "\(spacecraft.noStages)",
-                "\(String(describing: spacecraft.noLaunches))",
                 "\(spacecraft.length)",
                 "\(spacecraft.diameter)",
                 "\(spacecraft.startMass)",
                 "\(spacecraft.fuelType)",
-                "\(spacecraft.maxDistance)",
+                "\(spacecraft.status)",
+                "\(spacecraft.noLaunches!)"
             ]
             cell.textLabel?.text = key[indexPath.row]
             cell.detailTextLabel?.text = value[indexPath.row]
+            
             return cell
         case 3:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as! UITableViewCell
-            cell.backgroundColor = .clear
+            let cell = tableView.dequeueReusableCell(withIdentifier: "desCell") as! DestinationCell
             cell.textLabel?.text = spacecraft.description
-            cell.textLabel?.font = .init(name: Fonts.ligth, size: 16)
-            cell.textLabel?.numberOfLines = 0
             return cell
         default:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as! UITableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "launchCell") as! LaunchButtonCell
             return cell
         }
     }
-    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
         case 2:
@@ -108,26 +107,11 @@ extension SpaceCraftViewController {
         switch indexPath.section {
         case 0:
             return 300
+        case 2:
+            return 60
         case 3:
-            return 500
-        default:
-            return 45
+            return 300
+        default: return 44
         }
-    }
-}
-
-extension SpaceCraftViewController {
-    func fetchInformation() -> [String: String] {
-        let information = [
-            "Производитель": "\(spacecraft.manufacturer)",
-            "Количество ступеней": "\(spacecraft.noStages)",
-            "Количество запусков": "\(String(describing: spacecraft.noLaunches))",
-            "Длина": "\(spacecraft.length)",
-            "Диаметр": "\(spacecraft.diameter)",
-            "Масса": "\(spacecraft.startMass)",
-            "Топливо": "\(spacecraft.fuelType)",
-            "Максимальная дистанция": "\(spacecraft.maxDistance)",
-        ]
-        return information
     }
 }
