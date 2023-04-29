@@ -14,18 +14,22 @@ final class ImageCell: UITableViewCell {
         super.init(style: .default, reuseIdentifier: "imageCell")
         
         backgroundColor = .clear
-        contentView.addSubview(image)
+        addSubview(image)
         image.translatesAutoresizingMaskIntoConstraints = false
         image.layer.masksToBounds = true
-        image.layer.cornerRadius = 10
+        image.layer.cornerRadius = 15
         image.layer.cornerCurve = .continuous
-
+        
         NSLayoutConstraint.activate([
-            image.heightAnchor.constraint(equalToConstant: 300),
-            image.widthAnchor.constraint(equalToConstant: 300),
-            image.centerYAnchor.constraint(equalTo: centerYAnchor),
-            image.centerXAnchor.constraint(equalTo: centerXAnchor)
+            image.topAnchor.constraint(equalTo: topAnchor),
+            image.bottomAnchor.constraint(equalTo: bottomAnchor),
+            image.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
+            image.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
+            image.heightAnchor.constraint(equalToConstant: 200),
+            image.widthAnchor.constraint(equalToConstant: 200),
         ])
+        image.contentMode = .scaleAspectFill
+        
     }
     
     required init?(coder: NSCoder) {

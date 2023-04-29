@@ -25,6 +25,10 @@
 		554EBE0E29F16B2800BC6BFE /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBE0D29F16B2800BC6BFE /* Fonts.swift */; };
 		554EBE1029F16DE500BC6BFE /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EBE0F29F16DE500BC6BFE /* ImageCell.swift */; };
 		554EBE1229F1722600BC6BFE /* Unbounded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554EBE1129F1722600BC6BFE /* Unbounded-Light.ttf */; };
+		55B1A73329F9440D008A642E /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1A73229F9440D008A642E /* LaunchViewController.swift */; };
+		55B1A73729F949F7008A642E /* LaunchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1A73629F949F7008A642E /* LaunchModel.swift */; };
+		55B1A73929F94B20008A642E /* LaunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1A73829F94B20008A642E /* LaunchCell.swift */; };
+		55B1A73B29F94C69008A642E /* LaunchJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 55B1A73A29F94C69008A642E /* LaunchJSON.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		554EBE0D29F16B2800BC6BFE /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		554EBE0F29F16DE500BC6BFE /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		554EBE1129F1722600BC6BFE /* Unbounded-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Unbounded-Light.ttf"; path = "../../../../../Library/Fonts/Unbounded-Light.ttf"; sourceTree = "<group>"; };
+		55B1A73229F9440D008A642E /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		55B1A73629F949F7008A642E /* LaunchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchModel.swift; sourceTree = "<group>"; };
+		55B1A73829F94B20008A642E /* LaunchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCell.swift; sourceTree = "<group>"; };
+		55B1A73A29F94C69008A642E /* LaunchJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchJSON.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +120,9 @@
 		554EBDEE29F135CB00BC6BFE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				554EBDDC29F1306400BC6BFE /* SpaceCraftViewController.swift */,
 				554EBDFB29F1443000BC6BFE /* MainPageViewController.swift */,
+				554EBDDC29F1306400BC6BFE /* SpaceCraftViewController.swift */,
+				55B1A73229F9440D008A642E /* LaunchViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				554EBDF029F135EA00BC6BFE /* SpaceCraftModel.swift */,
+				55B1A73629F949F7008A642E /* LaunchModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,6 +149,7 @@
 		554EBDF729F138BC00BC6BFE /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				55B1A73A29F94C69008A642E /* LaunchJSON.json */,
 				554EBDF829F138C000BC6BFE /* SpaceCraftJSON.json */,
 			);
 			path = JSON;
@@ -152,6 +163,7 @@
 				552638CE29F4033000532AFD /* InfoCell.swift */,
 				552638D029F403F900532AFD /* DestinationCell.swift */,
 				552638D429F405F300532AFD /* LaunchButtonCell.swift */,
+				55B1A73829F94B20008A642E /* LaunchCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -238,6 +250,7 @@
 				554EBDFD29F14A1D00BC6BFE /* SpaceCraftJSON.json in Resources */,
 				554EBE0C29F16AFA00BC6BFE /* Unbounded-Medium.ttf in Resources */,
 				554EBDE529F1306500BC6BFE /* LaunchScreen.storyboard in Resources */,
+				55B1A73B29F94C69008A642E /* LaunchJSON.json in Resources */,
 				554EBDE229F1306500BC6BFE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +264,13 @@
 			files = (
 				554EBDDD29F1306400BC6BFE /* SpaceCraftViewController.swift in Sources */,
 				552638D329F404F700532AFD /* TitleCell.swift in Sources */,
+				55B1A73729F949F7008A642E /* LaunchModel.swift in Sources */,
+				55B1A73329F9440D008A642E /* LaunchViewController.swift in Sources */,
 				554EBDFC29F1443000BC6BFE /* MainPageViewController.swift in Sources */,
 				554EBE0729F16A5400BC6BFE /* Bundle.swift in Sources */,
 				552638D529F405F300532AFD /* LaunchButtonCell.swift in Sources */,
 				554EBDF129F135EA00BC6BFE /* SpaceCraftModel.swift in Sources */,
+				55B1A73929F94B20008A642E /* LaunchCell.swift in Sources */,
 				554EBDD929F1306400BC6BFE /* AppDelegate.swift in Sources */,
 				552638CF29F4033000532AFD /* InfoCell.swift in Sources */,
 				554EBDDB29F1306400BC6BFE /* SceneDelegate.swift in Sources */,

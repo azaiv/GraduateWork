@@ -15,7 +15,7 @@ final class InfoCell: UITableViewCell {
         backgroundColor = .clear
         
         textLabel?.font = .init(name: Fonts.regular, size: 18)
-        textLabel?.textColor = .systemGray
+        textLabel?.textColor = .lightText
         textLabel?.numberOfLines = 0
         
         detailTextLabel?.font = .init(name: Fonts.medium, size: 16)
