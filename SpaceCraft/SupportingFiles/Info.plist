@@ -8,8 +8,6 @@
 		<string>Unbounded-Regular.ttf</string>
 		<string>Unbounded-Light.ttf</string>
 	</array>
-	<key>UIUserInterfaceStyle</key>
-	<string>Dark</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
