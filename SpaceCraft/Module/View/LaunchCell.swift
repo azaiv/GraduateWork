@@ -7,7 +7,7 @@ final class LaunchCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: .subtitle, reuseIdentifier: "launchCell")
         
-        backgroundColor = .init(named: "BackgroundColor")
+        backgroundColor = .init(named: "BackLaunchColor")
         textLabel?.font = .init(name: Fonts.regular, size: 14)
         textLabel?.textColor = .white
         textLabel?.numberOfLines = 0

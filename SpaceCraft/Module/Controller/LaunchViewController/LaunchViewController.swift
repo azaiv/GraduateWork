@@ -15,23 +15,25 @@ class LaunchViewController: UIViewController {
                 launchArray.append(launch)
             }
         }
-        
+        print(launchIndex)
         super.init(nibName: nil, bundle: nil)
         view.addSubview(tableView)
         tableView.frame = view.bounds
-        view.backgroundColor = .init(named: "BackgroundColor")
+        view.backgroundColor = .init(named: "BackLaunchColor")
         tableView.allowsSelection = false
         tableView.register(LaunchCell.self, forCellReuseIdentifier: "launchCell")
         tableView.rowHeight = 100
-        tableView.separatorColor = .init(named: "BackgroundColor")
+        tableView.separatorColor = .init(named: "BackLaunchColor")
         tableView.dataSource = self
         tableView.separatorInset = .zero
-        tableView.backgroundColor = .init(named: "BackgroundColor")
-        title = launchArray[self.launchIndex].rocket
+        tableView.backgroundColor = .init(named: "BackLaunchColor")
+        
+        title = "Запуски"
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+
 }
 

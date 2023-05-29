@@ -76,6 +76,13 @@ class TestViewController: UIViewController, UIScrollViewDelegate {
     
     @objc func openLaunches() {
         let vc = UINavigationController(rootViewController: LaunchViewController(launch: rocket.id))
+        if let sheetController = vc.sheetPresentationController {
+            sheetController.detents = [.medium(), .large()]
+            sheetController.largestUndimmedDetentIdentifier = .large
+            sheetController.prefersScrollingExpandsWhenScrolledToEdge = true
+            sheetController.prefersGrabberVisible = true
+        }
+        vc.navigationBar.standardAppearance.titleTextAttributes = [ .font: UIFont(name: Fonts.medium, size: 16)]
         present(vc, animated: true)
     }
 }
