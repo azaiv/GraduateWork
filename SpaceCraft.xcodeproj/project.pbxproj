@@ -473,7 +473,7 @@
 				DEVELOPMENT_TEAM = JRA8SJKSWZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpaceCraft/SupportingFiles/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AstroWiki;
+				INFOPLIST_KEY_CFBundleDisplayName = SpaceCraftWiki;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
@@ -506,7 +506,7 @@
 				DEVELOPMENT_TEAM = JRA8SJKSWZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpaceCraft/SupportingFiles/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AstroWiki;
+				INFOPLIST_KEY_CFBundleDisplayName = SpaceCraftWiki;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;

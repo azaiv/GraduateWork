@@ -13,7 +13,7 @@ extension PageViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController,
                             viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
-        guard let index = rocketViewController.firstIndex(of: viewController as! TestViewController) else { return nil }
+        guard let index = rocketViewController.firstIndex(of: viewController as! RocketViewController) else { return nil }
         
         if index == 0 {
             return rocketViewController.last
@@ -26,7 +26,7 @@ extension PageViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController,
                             viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
-        guard let index = rocketViewController.firstIndex(of: viewController as! TestViewController) else { return nil }
+        guard let index = rocketViewController.firstIndex(of: viewController as! RocketViewController) else { return nil }
         if viewController == rocketViewController.last {
             return rocketViewController.first
         } else {

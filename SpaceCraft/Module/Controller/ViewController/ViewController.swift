@@ -1,6 +1,6 @@
 import UIKit
 
-class TestViewController: UIViewController, UIScrollViewDelegate {
+class RocketViewController: UIViewController, UIScrollViewDelegate {
     
     var rocket: RocketModel
     var infoLabel: [String] = []

@@ -1,6 +1,6 @@
 import UIKit
 
-extension TestViewController: UITableViewDataSource, UITableViewDelegate {
+extension RocketViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.section {
         case 0:

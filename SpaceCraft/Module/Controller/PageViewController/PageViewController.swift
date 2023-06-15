@@ -3,7 +3,7 @@ import UIKit
 class PageViewController: UIPageViewController {
     
     var indexPage = 0
-    var rocketViewController: [TestViewController] = []
+    var rocketViewController: [RocketViewController] = []
     
     override init(transitionStyle style: UIPageViewController.TransitionStyle, navigationOrientation: UIPageViewController.NavigationOrientation, options: [UIPageViewController.OptionsKey : Any]? = nil) {
         super.init(transitionStyle: .scroll, navigationOrientation: .horizontal)
@@ -11,7 +11,7 @@ class PageViewController: UIPageViewController {
         view.backgroundColor = .init(named: "BackgroundColor")
         
         for index in indexPage...RocketData.rocketsData.count - 1 {
-            let vc = TestViewController(rockets: RocketData.rocketsData[index])
+            let vc = RocketViewController(rockets: RocketData.rocketsData[index])
             rocketViewController.append(vc)
         }
         
